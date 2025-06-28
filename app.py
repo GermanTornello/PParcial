@@ -28,7 +28,7 @@ def create_app():
 
     @app.route('/')
     def home():
-        return "¡Bienvenido a la API de Mini Spotify!"
+        return "¡Bienvenido a la API de Spotify!"
 
     return app
 
